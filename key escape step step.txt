@@ -1,0 +1,50 @@
+Open Unity and create a new 2D project.
+
+Import the following assets from the Unity Asset Store:
+
+Pixel Art Platformer Tileset
+Pixel Art Monster Sprites
+Pixel Art RPG Icons
+Free Casual Game SFX
+Create a new scene in the Unity editor and save it as "MainMenu".
+
+In the "MainMenu" scene, create a canvas and add a panel to it. Set the panel's image to a background image and center it on the canvas.
+
+Create three buttons: "Start Game", "Options", and "Quit". Position them on the panel.
+
+Create a script called "MainMenuScript" and attach it to the canvas. In this script, add functionality to the buttons:
+
+"Start Game" button loads the first level of the game.
+"Options" button loads the options menu.
+"Quit" button quits the game.
+Create a new scene and save it as "Level 1".
+
+In the "Level 1" scene, create a camera and set it to "Orthographic".
+
+Create a new layer called "Background" and add a background image to the scene. Set the background layer to "Background".
+
+Create a new layer called "Foreground" and add the platformer tileset to the scene. Set the platformer tileset to "Foreground".
+
+Create a new layer called "Player" and add the player sprite to the scene. Set the player sprite to "Player".
+
+Create a new layer called "Monster" and add the monster sprite to the scene. Set the monster sprite to "Monster".
+
+Create a script called "PlayerScript" and attach it to the player object. In this script, add functionality to move the player using the arrow keys and to throw objects using the spacebar.
+
+Create a script called "MonsterScript" and attach it to the monster object. In this script, add functionality to move the monster towards the player and to speed up over time.
+
+Create a new layer called "Items" and add the key sprite to the scene. Set the key sprite to "Items".
+
+Create a script called "KeyScript" and attach it to the key object. In this script, add functionality to randomize the position of the key and to destroy it when the player collides with it.
+
+Create a new layer called "UI" and add a canvas to the scene. Create a panel on the canvas and add a text object to it.
+
+Create a script called "UIScript" and attach it to the text object. In this script, add functionality to update the text with the number of keys collected by the player.
+
+Create a new scene and save it as "GameOver".
+
+In the "GameOver" scene, create a canvas and add a panel to it. Set the panel's image to a game over/you won image and center it on the canvas.
+
+Create a button called "Restart" and position it on the panel.
+
+Create a script called "GameOverScript" and attach it to the canvas. In this script, add functionality to the "Restart" button to load the main menu scene.

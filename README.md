@@ -1,6 +1,8 @@
 # FORR3FL05EU
  Leikjaforritun
 
+# [Leikurinn](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%203/verkefni.md)
+
 [Verkefni 1 - Animation [15%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%201)
 
 [Verkefni 2 - Animation [15%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%202)

@@ -1,0 +1,601 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Cainos.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Dark.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Dark.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline None.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline None.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Yellow.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Yellow.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Dark.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Dark.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline White.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline White.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Scene.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Scene/SC Pixel Art Icon Pack - RPG.unity
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Scene/SC Pixel Art Icon Pack - RPG.unity.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Shader.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Shader/SH Sprite Icon Outline Color.shader
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Shader/SH Sprite Icon Outline Color.shader.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Shader/SH UI Icon Outline Color.shader
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Shader/SH UI Icon Outline Color.shader.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Bag.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Bag.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Belt.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Belt.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Helm.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Helm.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Armor.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Armor.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Boot.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Boot.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Helmet.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Iron Helmet.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Armor.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Armor.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Boot.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Boot.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Helmet.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Leather Helmet.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Wizard Hat.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Wizard Hat.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Wooden Armor.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Equipment/Wooden Armor.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Apple.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Apple.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Beer.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Beer.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Bread.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Bread.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Cheese.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Cheese.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Fish Steak.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Fish Steak.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Green Apple.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Green Apple.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Ham.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Ham.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Meat.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Meat.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Mushroom.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Mushroom.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Wine 2.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Wine 2.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Wine.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Food/Wine.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Fabric.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Fabric.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Leather.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Leather.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Paper.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Paper.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Rope.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Rope.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/String.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/String.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wood Log.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wood Log.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wooden Plank.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wooden Plank.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wool.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wool.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 2.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 2.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 3.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 3.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Candle.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Candle.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Chest.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Chest.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Copper Coin.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Copper Coin.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Crate.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Crate.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Envolop.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Envolop.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Gear.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Gear.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Coin.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Coin.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Key.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Key.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Heart.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Heart.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Iron Key.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Iron Key.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Lantern.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Lantern.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Map.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Map.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Rune Stone.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Rune Stone.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Scroll.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Scroll.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Coin.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Coin.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Key.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Key.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Bone.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Bone.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Egg.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Egg.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Feather.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Feather.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Egg.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Egg.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Eye.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Eye.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Meat.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Monster Meat.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Skull.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Skull.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Slime Gel.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Monster Part/Slime Gel.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Coal.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Coal.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Ingot.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Ingot.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Nugget.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Nugget.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Crystal.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Crystal.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Emerald.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Emerald.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Ruby.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Ruby.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Topaz.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Topaz.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Diamond.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Diamond.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Emerald.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Emerald.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Gold Nugget.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Gold Nugget.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Golden Ingot.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Golden Ingot.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Obsidian.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Obsidian.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Pearl.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Pearl.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Ruby.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Ruby.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Sapphire.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Sapphire.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Ingot.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Ingot.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Nugget.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Nugget.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Topaz.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Topaz.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion 2.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion 2.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion 3.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion 3.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Blue Potion.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Empty Bottle.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Empty Bottle.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion 2.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion 2.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion 3.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion 3.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Green Potion.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 2.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 2.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 3.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion 3.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Red Potion.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Water Bottle.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Potion/Water Bottle.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Arrow.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Arrow.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Axe.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Axe.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Bow.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Bow.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Emerald Staff.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Emerald Staff.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Golden Sword.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Golden Sword.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Hammer.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Hammer.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Shield.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Shield.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Sword.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Iron Sword.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Knife.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Knife.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Magic Wand.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Magic Wand.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Pickaxe.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Pickaxe.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Ruby Staff.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Ruby Staff.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Sapphire Staff.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Sapphire Staff.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Shovel.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Shovel.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Silver Sword.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Silver Sword.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Topaz Staff.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Topaz Staff.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Torch.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Torch.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Wooden Shield.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Wooden Shield.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Wooden Staff.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Wooden Staff.png.meta
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Wooden Sword.png
+    - Assets/Cainos/Pixel Art Icon Pack - RPG/Texture/Weapon & Tool/Wooden Sword.png.meta
+    - Assets/Pixel Monster Pack.meta
+    - Assets/Pixel Monster Pack/32x32 monsters.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/boneworm-white.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-red.png
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-red.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/cerberus-white.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-red.png
+    - Assets/Pixel Monster Pack/32x32 monsters/ooze-red.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-brown.png
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-brown.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/rat-white.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/scorpion-white.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-red.png
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-red.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-violet.png
+    - Assets/Pixel Monster Pack/32x32 monsters/skull-violet.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-red.png
+    - Assets/Pixel Monster Pack/32x32 monsters/slime-red.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/spider-white.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-blue.png
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-blue.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/wolf-white.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-black.png
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-black.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-brown.png
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-brown.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-green.png
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-green.png.meta
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-white.png
+    - Assets/Pixel Monster Pack/32x32 monsters/worm-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/boneworm-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-red.png
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-red.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/cerberus-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-red.png
+    - Assets/Pixel Monster Pack/64x64 monsters/ooze-red.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-brown.png
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-brown.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/rat-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/scorpion-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-red.png
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-red.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-violet.png
+    - Assets/Pixel Monster Pack/64x64 monsters/skull-violet.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-red.png
+    - Assets/Pixel Monster Pack/64x64 monsters/slime-red.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/spider-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-blue.png
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-blue.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/wolf-white.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-black.png
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-black.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-brown.png
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-brown.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-green.png
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-green.png.meta
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-white.png
+    - Assets/Pixel Monster Pack/64x64 monsters/worm-white.png.meta
+    - Assets/Pixel Monster Pack/notes.txt
+    - Assets/Pixel Monster Pack/notes.txt.meta
+    - Assets/Pixel Monster Pack/sprite-sheet-32x32.png
+    - Assets/Pixel Monster Pack/sprite-sheet-32x32.png.meta
+    - Assets/Pixel Monster Pack/sprite-sheet-64x64.png
+    - Assets/Pixel Monster Pack/sprite-sheet-64x64.png.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Tiny Platformer - Forest Asset Pack.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Background.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_01.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_01.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_02.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_02.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_03.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Background/Layer_03.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Demo.unity
+    - Assets/Tiny Platformer - Forest Asset Pack/Demo.unity.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Props.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Props/props.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Props/props.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01/hit.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01/hit.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01/idle.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01/idle.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01/walk.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_01/walk.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02/hit.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02/hit.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02/idle.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02/idle.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02/walk.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_02/walk.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_03.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_03/fly.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_03/fly.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_03/hit.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Enemies/Enemy_03/hit.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/fall.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/fall.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/hit.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/hit.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/idle.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/idle.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/jump.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/jump.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/walk.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/Player/walk.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/death.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Sprites/death.png.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Palettes.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Palettes/Palette_01.prefab
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Palettes/Palette_01.prefab.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_0.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_0.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_1.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_1.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_10.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_10.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_11.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_11.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_12.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_12.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_13.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_13.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_14.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_14.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_15.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_15.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_16.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_16.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_17.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_17.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_18.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_18.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_19.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_19.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_2.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_2.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_20.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_20.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_21.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_21.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_22.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_22.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_23.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_23.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_24.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_24.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_25.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_25.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_26.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_26.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_27.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_27.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_28.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_28.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_29.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_29.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_3.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_3.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_30.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_30.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_31.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_31.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_32.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_32.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_33.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_33.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_34.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_34.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_35.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_35.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_36.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_36.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_37.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_37.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_38.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_38.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_39.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_39.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_4.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_4.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_5.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_5.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_6.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_6.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_7.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_7.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_8.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_8.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_9.asset
+    - Assets/Tiny Platformer - Forest Asset Pack/Tilemap/Tiles/Tileset_9.asset.meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tileset(16x16).meta
+    - Assets/Tiny Platformer - Forest Asset Pack/Tileset(16x16)/Tileset.png
+    - Assets/Tiny Platformer - Forest Asset Pack/Tileset(16x16)/Tileset.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
