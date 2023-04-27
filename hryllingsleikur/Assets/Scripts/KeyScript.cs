@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class KeyScript : MonoBehaviour
 {
+    public GameObject Hurd;
+
     private void Start()
     {
         // Randomize the position of the key
@@ -26,6 +28,13 @@ public class KeyScript : MonoBehaviour
             {
                 // Add the key to the player's inventory
                 playerScript.AddKey();
+
+                // Destroy the Hurd Foreground GameObject
+                GameObject hurdForeground = GameObject.Find("Hurd");
+                if (hurdForeground != null)
+                {
+                    Destroy(hurdForeground);
+                }
 
                 // Show a console message
                 Debug.Log("Player picked up the key!");
