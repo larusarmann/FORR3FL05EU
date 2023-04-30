@@ -36,15 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PlayerScript.cs" />
-     <Compile Include="Assets\Scripts\GameOverScript.cs" />
-     <Compile Include="Assets\Scripts\KeyScript.cs" />
-     <Compile Include="Assets\Scripts\MainMenuScript.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\CameraScript.cs" />
-     <Compile Include="Assets\Scripts\MonsterScript.cs" />
-     <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
-     <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
+     <Compile Include="Assets\Asset\Scripts\PlayerScript.cs" />
+     <Compile Include="Assets\Asset\Scripts\GameOverScript.cs" />
+     <Compile Include="Assets\Asset\Scripts\KeyScript.cs" />
+     <Compile Include="Assets\Asset\Scripts\MainMenuScript.cs" />
+     <Compile Include="Assets\Asset\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Asset\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Asset\Scripts\MonsterScript.cs" />
+     <None Include="Assets\imports\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
+     <None Include="Assets\imports\Cainos\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
