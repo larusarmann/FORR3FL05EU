@@ -10,9 +10,11 @@ public class PlayerScript : MonoBehaviour
     public float jumpForce = 10.0f;
     public float groundCheckDistance = 0.1f;
     public float deathHeight = -25f;
+    public float groundCheckOffset = 0.05f; // added offset to ground check
     public LayerMask groundLayer;
     public int startingLives = 3;
     public Material flashMaterial;
+    public float invincibilityDuration = 1f;
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -22,6 +24,7 @@ public class PlayerScript : MonoBehaviour
     private Text livesText;
     private bool hasKey = false;
     private bool isFlashing = false;
+    private bool isInvincible = false;
 
     void Start()
     {
@@ -47,7 +50,14 @@ public class PlayerScript : MonoBehaviour
             spriteRenderer.flipX = true;
         }
 
-        RaycastHit2D hit = Physics2D.Raycast(boxCollider.bounds.center, Vector2.down, boxCollider.bounds.extents.y + groundCheckDistance, groundLayer);
+        if (!isInvincible && isFlashing)
+    {
+        spriteRenderer.material = flashMaterial;
+    }
+
+        // added ground check offset to starting point of raycast
+        Vector2 raycastOrigin = boxCollider.bounds.center - new Vector3(0, boxCollider.bounds.extents.y - groundCheckOffset, 0);
+        RaycastHit2D hit = Physics2D.Raycast(raycastOrigin, Vector2.down, boxCollider.bounds.extents.y + groundCheckDistance, groundLayer);
         isGrounded = hit.collider != null;
 
         if (isGrounded && (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)))
@@ -61,7 +71,7 @@ public class PlayerScript : MonoBehaviour
 
             UpdateLivesText();
         }
-        if (transform.position.x >= 42)
+        if (transform.position.x >= 42 || transform.position.x <= -18)
         {
             SceneManager.LoadScene("Level_2");
         }
@@ -90,28 +100,38 @@ public class PlayerScript : MonoBehaviour
         {
             // Respawn the monster
             other.gameObject.transform.position = new Vector3(-15, -2, 0);
-            StartCoroutine(FlashPlayer());
+
+            // Make the player invincible for 1 second
+            StartCoroutine(InvincibilityCoroutine());
         }
 
         UpdateLivesText();
     }
+}
 
+IEnumerator InvincibilityCoroutine()
+{
+    isInvincible = true;
+
+    yield return new WaitForSeconds(1f);
+
+    isInvincible = false;
 }
 
     IEnumerator FlashPlayer()
-    {
-        isFlashing = true;
+{
+    isFlashing = true;
 
-        Material originalMaterial = spriteRenderer.material;
+    Material originalMaterial = spriteRenderer.material;
 
-        spriteRenderer.material = flashMaterial;
+    spriteRenderer.material = flashMaterial;
 
-        yield return new WaitForSeconds(0.1f);
+    yield return new WaitForSeconds(0.1f);
 
-        spriteRenderer.material = originalMaterial;
+    spriteRenderer.material = originalMaterial;
 
-        isFlashing = false;
-    }
+    isFlashing = false;
+}
 
     public bool HasKey()
     {

@@ -11,10 +11,11 @@ public class KeyScript : MonoBehaviour
         do
         {
             float x = Random.Range(-16f, 40f);
-            float y = Random.Range(0f, 6f);
+            float y = Random.Range(-2f, 5f);
             transform.position = new Vector3(x, y, 0);
             isCollidingWithTilemap = GetComponent<Collider2D>().OverlapPoint(transform.position);
-        } while (isCollidingWithTilemap);
+        } while (isCollidingWithTilemap || transform.position.y < -1.5f);
+        // The loop will continue if the key collides with the tilemap or spawns below the ground level
     }
 
     private void OnTriggerEnter2D(Collider2D other)
