@@ -9,21 +9,22 @@ public class GameOverScript : MonoBehaviour
 
     void Start()
     {
-        // Finnur takkana í senunni
+        // finnur start game og quit takkana í senuni
         startGameButton = GameObject.Find("Start Game").GetComponent<Button>();
         quitButton = GameObject.Find("Quit").GetComponent<Button>();
 
-        // bætir við Listeners til að chekka hvort það hafi verið ýtt á takkan
+        // bætir við listeners til að tékka hvort það sé búið að ýta á takkana
         startGameButton.onClick.AddListener(StartGame);
         quitButton.onClick.AddListener(QuitGame);
     }
 
+    // Byrjar leikin
     void StartGame()
     {
-        // Hleður fyrstu senunni
         SceneManager.LoadScene("Level_1");
     }
 
+    // Loadar MainMenu senunni
     void QuitGame()
     {
         SceneManager.LoadScene("MainMenu");

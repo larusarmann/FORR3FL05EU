@@ -6,7 +6,7 @@ public class KeyScript : MonoBehaviour
 
     private void Start()
     {
-        // Randomize the position of the key
+        // Randomisar staðsetninguna á lyklinum
         bool isCollidingWithTilemap;
         do
         {
@@ -15,34 +15,34 @@ public class KeyScript : MonoBehaviour
             transform.position = new Vector3(x, y, 0);
             isCollidingWithTilemap = GetComponent<Collider2D>().OverlapPoint(transform.position);
         } while (isCollidingWithTilemap || transform.position.y < -1.5f);
-        // The loop will continue if the key collides with the tilemap or spawns below the ground level
+        // loopar áfram ef lykillin collidar við tilemappið eða fyrir neðan ground level
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the player collided with the key
+        // chekkar hvort playerinn collidi við lykilinn
         if (other.CompareTag("Player"))
         {
-            // Get the player script
+            // nær í playerscript
             PlayerScript playerScript = other.gameObject.GetComponent<PlayerScript>();
 
-            // Check if the player already has the key
+            // Chekkar hvort playerinn sé með lykilinn
             if (!playerScript.HasKey())
             {
-                // Add the key to the player's inventory
+                // setur lykilinn í inventory
                 playerScript.AddKey();
 
-                // Destroy the Hurd Foreground GameObject
+                // eyðileggur hurðina þegar hann snertir lykilinn
                 GameObject hurdForeground = GameObject.Find("Hurd");
                 if (hurdForeground != null)
                 {
                     Destroy(hurdForeground);
                 }
 
-                // Show a console message
+                // Sýnir í console að playerinn hafi pikkað upp lykilinn
                 Debug.Log("Player picked up the key!");
 
-                // Destroy the key object
+                // eyðileggur lykilinn
                 Destroy(gameObject);
             }
         }

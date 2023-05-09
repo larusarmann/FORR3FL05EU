@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        // Ensure that only one instance of GameManager exists
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -19,13 +18,8 @@ public class GameManager : MonoBehaviour
 
         Instance = this;
 
-        // Keep GameManager object alive between scenes
         DontDestroyOnLoad(gameObject);
-
-        // Find the keys text object in the scene
         keysText = GameObject.Find("KeysText").GetComponent<Text>();
-
-        // Update the keys text
         UpdateKeysText();
     }
 
@@ -39,6 +33,4 @@ public class GameManager : MonoBehaviour
     {
         keysText.text = "Keys: " + keys;
     }
-
-    // Add any other GameManager functionality here
 }

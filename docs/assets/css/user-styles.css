@@ -1,0 +1,116 @@
+.unity-player-container {
+    max-width: 800px;
+    margin: 0 auto
+}
+
+.unity-player-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    margin-bottom: 15px
+}
+
+.unity-player-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden
+}
+
+.youtube-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 15px
+}
+
+.youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden
+}
+
+.game-logo {
+    width: 100%
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor
+}
+
+.page-header {
+    position: relative
+}
+
+.page-header h1 a {
+    color: inherit
+}
+
+.page-header h1 a:hover {
+    text-decoration: none
+}
+
+.page-header .language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    max-height: 12rem;
+    margin-top: -1rem
+}
+
+.page-header .language-switcher .btn {
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.page-header .language-switcher .btn.selected {
+    background-color: white;
+    color: #606c71
+}
+
+.page-header .language-switcher .btn .lang-name {
+    display: none
+}
+
+@media screen and (max-width: 42em) {
+    .page-header .language-switcher {
+        position:static;
+        flex-flow: row wrap;
+        margin: 0;
+        margin-left: -1rem;
+        margin-bottom: -1rem
+    }
+
+    .page-header .language-switcher .btn {
+        flex: 2 1 30%;
+        margin: 1rem 0;
+        margin-left: 1rem;
+        width: auto;
+        height: auto
+    }
+
+    .page-header .language-switcher .btn .lang-name {
+        display: inline;
+        margin-left: 0.33em
+    }
+}
