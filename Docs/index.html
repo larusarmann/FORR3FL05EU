@@ -2,83 +2,282 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <style>/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #606c71
+}
+#skip-to-content {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px
+}
+#skip-to-content:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: auto;
+    width: auto;
+    background: #e19447;
+    outline: thick solid #e19447
+}
+a {
+    color: #1e6bb8;
+    text-decoration: none
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s
+}
+.btn:hover {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.2);
+    border-color: rgba(255,255,255,0.3)
+}
+.btn+.btn {
+    margin-left: 1rem
+}
+@media screen and (min-width: 64em) {
+    .btn {
+        padding:0.75rem 1rem
+    }
+}
+.page-header {
+    color: #fff;
+    text-align: center;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957)
+}
+@media screen and (min-width: 64em) {
+    .page-header {
+        padding:5rem 6rem
+    }
+}
+.project-name {
+    margin-top: 0;
+    margin-bottom: 0.1rem
+}
+@media screen and (min-width: 64em) {
+    .project-name {
+        font-size:3.25rem
+    }
+}
+@media screen and (min-width: 64em) {
+    .main-content {
+        max-width:64rem;
+        padding: 2rem 6rem;
+        margin: 0 auto;
+        font-size: 1.1rem
+    }
+}
+.main-content kbd {
+    background-color: #fafbfc;
+    border: 1px solid #c6cbd1;
+    border-bottom-color: #959da5;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #959da5;
+    color: #444d56;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle
+}
+.main-content img {
+    max-width: 100%
+}
+.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #159957
+}
+.main-content p {
+    margin-bottom: 1em
+}
+.main-content code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: #567482;
+    background-color: #f3f6fa;
+    border-radius: 0.3rem
+}
+.main-content table th,.main-content table td {
+    padding: 0.5rem 1rem;
+    border: 1px solid #e9ebec
+}
+.site-footer {
+    padding-top: 2rem;
+    margin-top: 2rem;
+    border-top: solid 1px #eff0f1
+}
+.site-footer-owner {
+    display: block;
+    font-weight: bold
+}
+</style>
+<style>
+  .unity-player-container {
+    max-width: 800px;
+    margin: 0 auto
+}
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Home | The Quest for the Game</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Home" />
-<meta property="og:locale" content="en" />
-<meta name="description" content="2D top-down RPG game based on The Quest for Soda short film series" />
-<meta property="og:description" content="2D top-down RPG game based on The Quest for Soda short film series" />
-<link rel="canonical" href="https://haframjolk.github.io/the-quest-game/" />
-<meta property="og:url" content="https://haframjolk.github.io/the-quest-game/" />
-<meta property="og:site_name" content="The Quest for the Game" />
-<meta property="og:image" content="https://haframjolk.github.io/the-quest-game/assets/img/the-quest-game-logo-10x.png" />
-<meta property="og:image:height" content="500" />
-<meta property="og:image:width" content="1000" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:image" content="https://haframjolk.github.io/the-quest-game/assets/img/the-quest-game-logo-10x.png" />
-<meta property="twitter:title" content="Home" />
-<meta name="twitter:site" content="@Ronni_strongaman" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"2D top-down RPG game based on The Quest for Soda short film series","headline":"Home","image":{"width":1000,"height":500,"url":"https://haframjolk.github.io/the-quest-game/assets/img/the-quest-game-logo-10x.png","@type":"imageObject"},"name":"The Quest for the Game","url":"https://haframjolk.github.io/the-quest-game/"}</script>
-<!-- End Jekyll SEO tag -->
+.unity-player-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    margin-bottom: 15px
+}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/docs/assets/css/style.css?v=d0aec12b8cb38fadbc693b6196c45db55c64e933">
-    <link rel="stylesheet" href="/docs/assets/css/user-styles.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/the-quest-game/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/the-quest-game/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/the-quest-game/favicon-16x16.png">
-<link rel="manifest" href="/the-quest-game/site.webmanifest">
-<link rel="shortcut icon" href="/the-quest-game/favicon.ico">
-<meta name="apple-mobile-web-app-title" content="The Quest for the Game">
-<meta name="application-name" content="The Quest for the Game">
-<meta name="msapplication-TileColor" content="#00aba9">
-<meta name="msapplication-config" content="/the-quest-game/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+.unity-player-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden
+}
+
+.youtube-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin-bottom: 15px
+}
+
+.youtube-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    overflow: hidden
+}
+
+.game-logo {
+    width: 100%
+}
+
+.pixel-art {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor
+}
+
+.page-header {
+    position: relative
+}
+
+.page-header h1 a {
+    color: inherit
+}
+
+.page-header h1 a:hover {
+    text-decoration: none
+}
+
+.page-header .language-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-flow: column wrap-reverse;
+    max-height: 12rem;
+    margin-top: -1rem
+}
+
+.page-header .language-switcher .btn {
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.page-header .language-switcher .btn.selected {
+    background-color: white;
+    color: #606c71
+}
+
+.page-header .language-switcher .btn .lang-name {
+    display: none
+}
+
+@media screen and (max-width: 42em) {
+    .page-header .language-switcher {
+        position:static;
+        flex-flow: row wrap;
+        margin: 0;
+        margin-left: -1rem;
+        margin-bottom: -1rem
+    }
+
+    .page-header .language-switcher .btn {
+        flex: 2 1 30%;
+        margin: 1rem 0;
+        margin-left: 1rem;
+        width: auto;
+        height: auto
+    }
+
+    .page-header .language-switcher .btn .lang-name {
+        display: inline;
+        margin-left: 0.33em
+    }
+}
+
+</style>
+
   </head>
   
   <body>
     <section class="page-header">
-      <h1 class="project-name"><a href="/the-quest-game/">The&nbsp;Quest&nbsp;for the&nbsp;Game</a></h1>
-      <h2 class="project-tagline">2D top-down RPG game based on The&nbsp;Quest&nbsp;for&nbsp;Soda short film series</h2>
+      <h1 class="project-name"><a href="https://github.com/larusarmann/FORR3FL05EU">Key&nbsp;Escape</a></h1>
+      <h1></h1>
       
-        <a href="https://github.com/haframjolk/the-quest-game" class="btn">View on GitHub</a>
-      
-      
-      
-        <a href="https://github.com/haframjolk/the-quest-game/releases" class="btn">Downloads</a>
+        <a href="https://github.com/larusarmann/FORR3FL05EU" class="btn">View on GitHub</a>
       
       
-        <a href="/the-quest-game/play/" class="btn">Play</a>
       
-      <aside class="language-switcher">
-        
-        
-          
-            <a href="/the-quest-game/" class="btn en selected">
-              <span class="lang-code">🇺🇸</span>
-              <span class="lang-name">English</span>
-            </a>
-          
-        
-          
-            <a href="/the-quest-game/is/" class="btn is">
-              <span class="lang-code">🇮🇸</span>
-              <span class="lang-name">Íslenska</span>
-            </a>
-          
-        
-      </aside>
+        <a href="https://github.com/larusarmann/FORR3FL05EU/releases" class="btn">Downloads</a>
+      
+      
+        <a href="/FORR3FL05EU/play/" class="btn">Play</a>
+      
     </section>
 
     <section class="main-content">
       <h2 id="about">About</h2>
 
-<p><img class="game-logo pixel-art" src="/the-quest-game/assets/img/the-quest-game-logo.png" alt="The Quest for the Game" /></p>
+<p><img class="game-logo pixel-art" src="/FORR3FL05EU/assets/img/FORR3FL05EU-logo.png" alt="Key Escape" /></p>
 
 <p>The Quest for the Game is based on the short film series <a href="https://www.youtube.com/playlist?list=PLRPhs_MpGPlg9gD7TQp-APjz5g2SNIPe7">The Quest for Soda</a> and stars the main characters from said series, the Danish teenage buddies Svenn and Svennz.</p>
 
@@ -115,9 +314,9 @@
 
 <h2 id="play">Play</h2>
 
-<p><a href="https://github.com/haframjolk/the-quest-game/releases">Download game for macOS, Windows or Linux</a></p>
+<p><a href="https://github.com/larusarmann/FORR3FL05EU/releases">Download game for macOS, Windows or Linux</a></p>
 
-<p><a href="/the-quest-game/play/">Play game in browser (WebGL)</a></p>
+<p><a href="/FORR3FL05EU/play/">Play game in browser (WebGL)</a></p>
 
 <h2 id="about-the-project">About the project</h2>
 
@@ -128,8 +327,7 @@
     <dd>Tækniskólinn - tölvubraut</dd>
     <dt>Course and semester</dt>
     <dd>FORR3FL05EU-Hát (Game&nbsp;Development&nbsp;II) - spring&nbsp;2023</dd>
-    <dt>License</dt>
-    <dd><a href="https://github.com/haframjolk/the-quest-game/blob/master/LICENSE">GNU General Public License v3.0</a></dd>
+    
 </dl>
 
       <footer class="site-footer">
