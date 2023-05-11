@@ -1,13 +1,9 @@
-# FORR3FL05EU
- Leikjaforritun
+# FORR3FL05EU Leikjaforritun
 
-# [Leikurinn](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%203/verkefni.md)
+# [Github Pages](https://larusarmann.github.io/FORR3FL05EU/)
 
-[Verkefni 1 - Animation [15%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%201)
+## [releases](https://github.com/larusarmann/FORR3FL05EU/releases/tag/v1.0.1)
 
-[Verkefni 2 - Animation [15%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%202)
+## [Skrifturnar](https://github.com/larusarmann/FORR3FL05EU/wiki/Skrifturnar)
 
-[Verkefni 3 - Leikjagerð - GDD [25%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%203)
-<!-- [Verkefni 4 - Leikjagerð [20%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%204)
-
-[Verkefni 4 - Spilun og Prófanir [25%]](https://github.com/larusarmann/FORR3FL05EU/tree/main/Verkefni%205) -->
+## [Wiki](https://github.com/larusarmann/FORR3FL05EU/wiki)
